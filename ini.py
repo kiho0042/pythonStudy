@@ -5,7 +5,6 @@ import os
 def getInifilename():
     return 'application.ini'
 
-# 
 def getIni(as_section, as_key):
     try:
         rtn_value = ''
